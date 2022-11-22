@@ -1,5 +1,5 @@
 import React,{useState} from 'react'
-import './userentry.css';
+import  './userentry.css';
 
 class User {
     constructor(_id,_name){
