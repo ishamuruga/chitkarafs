@@ -7,13 +7,13 @@ import Newuserreg from "./components/newuser";
 import { ErrorBoundary } from "react-error-boundary";
 import ErrorFallback from "./core/error-boundary";
 import StudentReg from "./components/studentreg";
+import MyAux from "./components/myaux";
 
 function App() {
   const text = "Hi from React";
   const p = "high";
   return (
-
-    <>
+    <MyAux>
       <div className="blue">
         <h1>Welcome to Virtusa-Chitkara Full Stack Program</h1>
       </div>
@@ -22,8 +22,9 @@ function App() {
         {/* <Helloworld message={text} priority={p}/>
         <Userentry/>         */}
       </div>
-      </>
+      </MyAux>
   );
 }
+
 
 export default App;

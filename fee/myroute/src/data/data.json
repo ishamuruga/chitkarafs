@@ -1,0 +1,68 @@
+{
+    "users": [
+      {
+        "id": 1,
+        "lname": "json-server",
+        "fname": "typicode",
+        "dob": "12-Dec-2022"
+      },
+      {
+        "id": 2,
+        "lname": "json-server",
+        "fname": "typicode",
+        "dob": "12-Dec-2022"
+      },
+      {
+        "fname": "SuperStar",
+        "lname": "Rajinikanth",
+        "dob": "2022-12-12",
+        "id": 3
+      },
+      {
+        "fname": "Manic",
+        "lname": "Basha",
+        "dob": "2022-12-12",
+        "id": 4
+      },
+      {
+        "fname": "Manic",
+        "lname": "Basha",
+        "dob": "2022-12-12",
+        "id": 5
+      },
+      {
+        "fname": "Manic",
+        "lname": "Basha",
+        "dob": "2022-12-12",
+        "id": 6
+      },
+      {
+        "fname": "Manic",
+        "lname": "Basha",
+        "dob": "2022-12-12",
+        "id": 7
+      },
+      {
+        "fname": "Manic",
+        "lname": "Basha",
+        "dob": "2022-12-12",
+        "id": 8
+      },
+      {
+        "fname": "Virt",
+        "lname": "Chit",
+        "dob": "2022-12-10",
+        "id": 9
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "body": "some comment",
+        "postId": 1
+      }
+    ],
+    "profile": {
+      "name": "typicode"
+    }
+  }
