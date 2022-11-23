@@ -1,7 +1,10 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router} from 'react-router-dom';
 import Helloworld from './components/helloworld';
+import { RouterConfig } from './components/routecfg';
+import Navbar from './components/navbar';
 
 //<div><h1>Welcome to FS Program</h1><div>
 
@@ -14,8 +17,12 @@ function App() {
   
   return (
       <div>
-        <h1>I am from React Page</h1>
-        <Helloworld raisedata={handleCustomEvent} name={data}/>
+        <Router>
+          <Navbar/>
+          <RouterConfig/>
+        {/* <h1>I am from React Page</h1> */}
+        {/* <Helloworld raisedata={handleCustomEvent} name={data}/> */}
+        </Router>
       </div>
   );
 }
