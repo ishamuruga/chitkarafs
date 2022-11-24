@@ -52,7 +52,7 @@ export default function StudentReg() {
             console.log("Correct Data");
             //let res = await axios.post("http://localhost:5000/users",form); 
             //console.log(res);
-            axios.post("http://localhost:5000/users",form).then(res=>{
+            axios.post("http://localhost:8080/api/save",form).then(res=>{
                 console.log(res);
             }).catch(err=>{
                 console.log("Error has Occured");
@@ -62,7 +62,7 @@ export default function StudentReg() {
     }
 
     const handlefetchStudents = ()=> {
-        axios.get("http://localhost:5000/users").then(x=>{
+        axios.get("http://localhost:8080/api/save").then(x=>{
            x.data.map(y=>{
             console.log(JSON.stringify(y));
            })
